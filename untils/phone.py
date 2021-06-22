@@ -16,7 +16,7 @@ import subprocess
 
 #得到手机信息
 def get_phone_info(devices):
-    cmd = "adb -s" + devices + "shell cat /system/build.prop"
+    cmd = "adb -s" + devices + " shell cat /system/build.prop"
     phone_info = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.readlines()
     l_list = {}
     release = 'ro.build.version.release='    #版本
@@ -44,7 +44,7 @@ def get_phone_info(devices):
 
 #得到最大运行内存
 def get_men(devices):
-    cmd = "adb -s" + devices + "shell cat /proc/meminfo"
+    cmd = "adb -s " + devices + " shell cat /proc/meminfo"
     get_cmd = os.popen(cmd).readlines()
     mem_total = 0
     men_total_str = "MemTotal"
@@ -57,7 +57,7 @@ def get_men(devices):
 
 #得到几核cpu
 def get_cpu(devices):
-    cmd = "adb -s" + devices +"shell cat /proc/cpuinfo"
+    cmd = "adb -s " + devices +" shell cat /proc/cpuinfo"
     get_cmd = os.popen(cmd).readlines()
     find_str = "processor"
     int_cpu = 0
@@ -69,5 +69,5 @@ def get_cpu(devices):
 
 #得到手机分辨率
 def get_pix(devices):
-    result = os.popen("adb -s" + devices + "shell wm size", "r")
+    result = os.popen("adb -s " + devices + " shell wm size", "r")
     return result.readline().split("Physical size:")[1]

@@ -32,3 +32,4 @@ def obtain_test_data(file_path, index=1):
     except Exception as e:
         LOG.info('获取测试用例参数失败！失败原因：%s' % e)
         return e
+

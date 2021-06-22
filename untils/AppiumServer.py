@@ -86,7 +86,7 @@ class AppiumServer(object):
             os.popen("taskkill /f /im node.exe")
         else:
             for device in devices:
-                cmd = "losf -i:{0}".format(device["port"])
+                cmd = "lsof -i:{0}".format(device["port"])
                 ap = AppiumProcess(cmd)
                 if ap.is_node_process:
                     ap.kill_process()

@@ -1,0 +1,98 @@
+[2021-06-22 17:01:18.766965] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 17:01:18.768402] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-22 17:01:18.786368] INFO: appium_test: 测试开始执行
+[2021-06-22 17:01:18.804498] INFO: appium_test: ['emulator-5554']
+[2021-06-22 17:01:18.805375] INFO: appium_test: Darwin
+[2021-06-22 17:01:18.805563] INFO: appium_test: 当前模块 清理appium进程
+[2021-06-22 17:01:18.805716] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 17:01:18.873457] INFO: appium_test: lsof -i:4723
+[2021-06-22 17:01:18.874396] INFO: appium_test: 已杀死pid为41091的进程
+[2021-06-22 17:01:20.055388] INFO: appium_test: ------start_server------
+[2021-06-22 17:01:22.058002] INFO: appium_test: ------start_server------
+[2021-06-22 17:01:24.061721] INFO: appium_test: ------start_server------
+[2021-06-22 17:01:26.067764] INFO: appium_test: ------start_server------
+[2021-06-22 17:01:28.069231] INFO: appium_test: ------start_server------
+[2021-06-22 17:01:30.072254] INFO: appium_test: ------start_server------
+[2021-06-22 17:01:32.073886] INFO: appium_test: ------start_server------
+[2021-06-22 17:01:34.078451] INFO: appium_test: ------start_server------
+[2021-06-22 17:01:36.082478] INFO: appium_test: ------start_server------
+[2021-06-22 17:01:38.086657] INFO: appium_test: ------server启动成功------
+[2021-06-22 17:01:38.087511] INFO: appium_test: 当前模块 生成设备配置链接的进程池
+[2021-06-22 17:01:38.087803] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 17:03:39.697194] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 17:03:39.698874] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-22 17:03:39.712124] INFO: appium_test: 测试开始执行
+[2021-06-22 17:03:39.732943] INFO: appium_test: ['emulator-5554']
+[2021-06-22 17:03:39.733747] INFO: appium_test: Darwin
+[2021-06-22 17:03:39.733930] INFO: appium_test: 当前模块 清理appium进程
+[2021-06-22 17:03:39.734117] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 17:03:39.798489] INFO: appium_test: lsof -i:4723
+[2021-06-22 17:03:39.799214] INFO: appium_test: 已杀死pid为41173的进程
+[2021-06-22 17:03:41.222874] INFO: appium_test: ------start_server------
+[2021-06-22 17:03:43.228099] INFO: appium_test: ------start_server------
+[2021-06-22 17:03:45.230221] INFO: appium_test: ------start_server------
+[2021-06-22 17:03:47.232606] INFO: appium_test: ------start_server------
+[2021-06-22 17:03:49.237643] INFO: appium_test: ------start_server------
+[2021-06-22 17:03:51.240500] INFO: appium_test: ------start_server------
+[2021-06-22 17:03:53.244369] INFO: appium_test: ------start_server------
+[2021-06-22 17:03:55.249656] INFO: appium_test: ------start_server------
+[2021-06-22 17:03:57.251535] INFO: appium_test: ------start_server------
+[2021-06-22 17:03:59.258118] INFO: appium_test: ------server启动成功------
+[2021-06-22 17:03:59.259114] INFO: appium_test: 当前模块 生成设备配置链接的进程池
+[2021-06-22 17:03:59.259390] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 17:08:45.656412] INFO: appium_test: {'release': [], 'model': [], 'device': [], 'brand': []}
+[2021-06-22 17:09:54.957739] INFO: appium_test: {'release': [], 'model': [], 'device': [], 'brand': []}
+[2021-06-22 17:15:01.579360] INFO: appium_test: {'release': [], 'model': [], 'device': [], 'brand': []}
+[2021-06-22 17:16:03.815482] INFO: appium_test: {'release': []}
+[2021-06-22 17:23:34.349472] INFO: appium_test: {'release': []}
+[2021-06-22 17:26:14.637115] INFO: appium_test: {'release': []}
+[2021-06-22 17:26:41.227949] INFO: appium_test: {'release': []}
+[2021-06-22 17:27:13.583360] INFO: appium_test: {'release': []}
+[2021-06-22 17:29:55.773360] INFO: appium_test: {'release': [], 'model': [], 'device': [], 'brand': []}
+[2021-06-22 17:29:55.774864] INFO: appium_test: {'release': []}
+[2021-06-22 17:30:51.728180] INFO: appium_test: {'release': [], 'model': [], 'device': [], 'brand': []}
+[2021-06-22 17:30:51.729393] INFO: appium_test: {'release': []}
+[2021-06-22 17:31:51.915082] INFO: appium_test: {'release': [], 'model': [], 'device': [], 'brand': []}
+[2021-06-22 17:31:51.916495] INFO: appium_test: {'release': []}
+[2021-06-22 17:32:43.689014] INFO: appium_test: {'release': [], 'model': [], 'device': [], 'brand': []}
+[2021-06-22 17:32:43.690164] INFO: appium_test: {'release': []}
+[2021-06-22 17:33:13.823262] INFO: appium_test: {'release': [b'6.0.1\r\n'], 'model': [b'P10\r\n'], 'device': [b'x86_64\r\n'], 'brand': [b'HUAWEI\r\n']}
+[2021-06-22 17:33:13.824348] INFO: appium_test: {'release': [b'6.0.1\r\n']}
+[2021-06-22 17:33:23.791546] INFO: appium_test: {'release': [b'6.0.1\r\n'], 'model': [b'P10\r\n'], 'device': [b'x86_64\r\n'], 'brand': [b'HUAWEI\r\n']}
+[2021-06-22 17:33:23.792356] INFO: appium_test: {'release': [b'6.0.1\r\n']}
+[2021-06-22 17:33:54.366888] INFO: appium_test: {'release': [b'6.0.1\r\n'], 'model': [b'P10\r\n'], 'device': [b'x86_64\r\n'], 'brand': [b'HUAWEI\r\n']}
+[2021-06-22 17:33:54.367786] INFO: appium_test: {'release': [b'6.0.1\r\n']}
+[2021-06-22 17:34:38.394684] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 17:34:38.396545] INFO: appium_test: {'release': '6.0.1'}
+[2021-06-22 17:35:33.237607] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 17:35:33.238972] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-22 17:35:33.253555] INFO: appium_test: 测试开始执行
+[2021-06-22 17:35:33.269818] INFO: appium_test: ['emulator-5554']
+[2021-06-22 17:35:33.270548] INFO: appium_test: Darwin
+[2021-06-22 17:35:33.270738] INFO: appium_test: 当前模块 清理appium进程
+[2021-06-22 17:35:33.270947] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 17:35:33.344404] INFO: appium_test: lsof -i:4723
+[2021-06-22 17:35:33.345042] INFO: appium_test: 已杀死pid为41204的进程
+[2021-06-22 17:35:34.731334] INFO: appium_test: ------start_server------
+[2021-06-22 17:35:36.732372] INFO: appium_test: ------start_server------
+[2021-06-22 17:35:38.736114] INFO: appium_test: ------start_server------
+[2021-06-22 17:35:40.741529] INFO: appium_test: ------start_server------
+[2021-06-22 17:35:42.746783] INFO: appium_test: ------start_server------
+[2021-06-22 17:35:44.752296] INFO: appium_test: ------start_server------
+[2021-06-22 17:35:46.757327] INFO: appium_test: ------start_server------
+[2021-06-22 17:35:48.761552] INFO: appium_test: ------start_server------
+[2021-06-22 17:35:50.766209] INFO: appium_test: ------start_server------
+[2021-06-22 17:35:52.768192] INFO: appium_test: ------server启动成功------
+[2021-06-22 17:35:52.768630] INFO: appium_test: 当前模块 生成设备配置链接的进程池
+[2021-06-22 17:35:52.768835] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 17:35:52.829543] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 17:45:33.738242] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 17:45:58.513608] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 17:46:13.651234] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 17:48:09.797086] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 17:48:09.855560] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 17:49:54.084988] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 17:49:54.140860] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 17:50:17.353505] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 17:50:17.412549] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 17:52:06.350881] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}

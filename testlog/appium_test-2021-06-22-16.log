@@ -1,0 +1,52 @@
+[2021-06-22 16:24:38.946546] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 16:24:38.947061] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-22 16:24:38.980929] INFO: appium_test: 获取测试用例参数失败！失败原因：list index out of range
+[2021-06-22 16:25:09.379606] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 16:25:09.380690] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-22 16:25:09.393196] INFO: appium_test: 获取测试用例参数失败！失败原因：list index out of range
+[2021-06-22 16:43:17.981348] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 16:43:17.982077] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-22 16:43:17.982215] INFO: appium_test: 获取测试用例参数失败！失败原因：[Errno 2] No such file or directory: 'data/testcase_data.xlsx'
+[2021-06-22 16:43:32.460579] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 16:43:32.461639] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-22 16:43:32.461998] INFO: appium_test: 获取测试用例参数失败！失败原因：[Errno 2] No such file or directory: '/data/testcase_data.xlsx'
+[2021-06-22 16:44:10.810098] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 16:44:10.810877] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-22 16:44:10.826819] INFO: appium_test: 获取测试用例参数失败！失败原因：list index out of range
+[2021-06-22 16:48:34.521093] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 16:48:34.522526] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 16:48:34.535280] INFO: appium_test: 获取测试用例参数失败！失败原因：'list' object has no attribute 'nrows'
+[2021-06-22 16:48:56.463795] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 16:48:56.464708] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 16:48:56.477136] INFO: appium_test: 获取测试用例参数失败！失败原因：'list' object has no attribute 'nrows'
+[2021-06-22 16:49:14.414951] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 16:49:14.415660] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-22 16:49:14.428825] INFO: appium_test: 获取测试用例参数失败！失败原因：'list' object has no attribute 'nrows'
+[2021-06-22 16:49:28.074724] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 16:49:28.075514] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-22 16:49:28.088024] INFO: appium_test: 获取测试用例参数失败！失败原因：'list' object has no attribute 'nrows'
+[2021-06-22 16:49:43.402157] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 16:49:43.403141] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-22 16:49:43.417746] INFO: appium_test: 获取测试用例参数失败！失败原因：list index out of range
+[2021-06-22 16:54:13.576375] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 16:54:13.577426] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-22 16:54:34.599337] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 16:54:34.600761] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-22 16:54:34.614156] INFO: appium_test: 测试开始执行
+[2021-06-22 16:54:34.645070] INFO: appium_test: ['emulator-5554']
+[2021-06-22 16:54:34.645964] INFO: appium_test: Darwin
+[2021-06-22 16:54:34.646159] INFO: appium_test: 当前模块 清理appium进程
+[2021-06-22 16:54:34.646323] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 16:54:34.694271] INFO: appium_test: lsof -i:4723
+[2021-06-22 16:54:36.069249] INFO: appium_test: ------start_server------
+[2021-06-22 16:54:38.073775] INFO: appium_test: ------start_server------
+[2021-06-22 16:54:40.074997] INFO: appium_test: ------start_server------
+[2021-06-22 16:54:42.078491] INFO: appium_test: ------start_server------
+[2021-06-22 16:54:44.083405] INFO: appium_test: ------start_server------
+[2021-06-22 16:54:46.090335] INFO: appium_test: ------start_server------
+[2021-06-22 16:54:48.099797] INFO: appium_test: ------start_server------
+[2021-06-22 16:54:50.104753] INFO: appium_test: ------start_server------
+[2021-06-22 16:54:52.109517] INFO: appium_test: ------start_server------
+[2021-06-22 16:54:54.113971] INFO: appium_test: ------server启动成功------
+[2021-06-22 16:54:54.114670] INFO: appium_test: 当前模块 生成设备配置链接的进程池
+[2021-06-22 16:54:54.114906] INFO: appium_test: 全部kwargs参数信息， {}

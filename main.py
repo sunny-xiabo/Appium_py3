@@ -18,6 +18,7 @@ from untils.Parame_unittest import Parame
 from untils.AppiumServer import AppiumServer
 from untils.base_apk import getPhoneInfo, AndroidDebugBridge
 from config.config import base_dir
+from testcase.login_case_test import Logintest
 
 import os
 import unittest
@@ -42,8 +43,8 @@ def runner_pool(getDevices):
             "deviceName": device["devices"],
             "platformVersion": getPhoneInfo(devices=device["devices"])["release"],
             "platformName": "android",
-            "appPackage": '',
-            "appActivity": ''
+            "appPackage": 'com.pep.riyuxunlianying',
+            "appActivity": 'com.pep.riyuxunlianying.activity.StartActivity'
         }
         _pool.append(_initApp)
         devices_Pool.append(_initApp)
@@ -62,7 +63,7 @@ def runner_case_app(devices):
     """
     LOG.info(devices)
     test_suit = unittest.TestSuite()
-    test_suit.addTest(Parame.parametrize('', param=devices))  # 扩展的其他的测试用例都可以这样添加
+    test_suit.addTest(Parame.parametrize(Logintest, param=devices))  # 扩展的其他的测试用例都可以这样添加
     unittest.TextTestRunner(verbosity=2).run(test_suit)
 
 

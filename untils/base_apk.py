@@ -80,13 +80,14 @@ def getPhoneInfo(devices):
     :param devices:
     :return:
     '''
-    cmd = "adb -s " + devices + "shell getprop {}"
-    release = subprocess_popen(cmd.format("ro.build.version.release"))[0].decode(encoding='utf-8').strip()  # 版本
-    model = subprocess_popen(cmd.format("ro.product.model"))[0].decode(encoding='utf-8').strip()  # 型号
-    device = subprocess_popen(cmd.format("ro.product.device"))[0].decode(encoding='utf-8').strip()  # 设备名
-    brand = subprocess_popen(cmd.format("ro.product.brand"))[0].decode(encoding='utf-8').strip()  # 品牌
+    cmd = "adb -s " + devices + " shell getprop {}"
+    release = subprocess_popen(cmd.format("ro.build.version.release"))[0].decode(encoding='utf-8').strip() # 版本
+    model = subprocess_popen(cmd.format("ro.product.model"))[0].decode(encoding='utf-8').strip()   # 型号
+    device = subprocess_popen(cmd.format("ro.product.device"))[0].decode(encoding='utf-8').strip()   # 设备名
+    brand = subprocess_popen(cmd.format("ro.product.brand"))[0].decode(encoding='utf-8').strip()   # 品牌
     result = {"release": release, "model": model, "device": device, "brand": brand}
     LOG.info(result)
+
 
 
 class AndroidDebugBridge(object):
@@ -116,3 +117,8 @@ class AndroidDebugBridge(object):
             if len(t) >= 2:
                 devices.append(t[0])
         return devices
+
+
+
+
+print(getPhoneInfo('emulator-5554'))

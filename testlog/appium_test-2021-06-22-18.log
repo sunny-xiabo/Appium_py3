@@ -1,0 +1,26 @@
+[2021-06-22 18:00:03.391092] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:00:03.643668] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 18:00:03.643986] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-22 18:00:03.657683] INFO: appium_test: 测试开始执行
+[2021-06-22 18:00:03.668596] INFO: appium_test: ['emulator-5554']
+[2021-06-22 18:00:03.669394] INFO: appium_test: Darwin
+[2021-06-22 18:00:03.669639] INFO: appium_test: 当前模块 清理appium进程
+[2021-06-22 18:00:03.669810] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:00:03.736858] INFO: appium_test: lsof -i:4723
+[2021-06-22 18:00:03.737708] INFO: appium_test: 已杀死pid为41861的进程
+[2021-06-22 18:00:05.229946] INFO: appium_test: ------start_server------
+[2021-06-22 18:00:07.233901] INFO: appium_test: ------start_server------
+[2021-06-22 18:00:09.237706] INFO: appium_test: ------start_server------
+[2021-06-22 18:00:11.238571] INFO: appium_test: ------start_server------
+[2021-06-22 18:00:13.243683] INFO: appium_test: ------start_server------
+[2021-06-22 18:00:15.244597] INFO: appium_test: ------start_server------
+[2021-06-22 18:00:17.247913] INFO: appium_test: ------start_server------
+[2021-06-22 18:00:19.253440] INFO: appium_test: ------start_server------
+[2021-06-22 18:00:21.257779] INFO: appium_test: ------start_server------
+[2021-06-22 18:00:23.262456] INFO: appium_test: ------server启动成功------
+[2021-06-22 18:00:23.263326] INFO: appium_test: 当前模块 生成设备配置链接的进程池
+[2021-06-22 18:00:23.263982] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:00:23.327523] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:02:01.514861] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:03:59.155621] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:11:22.880601] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
