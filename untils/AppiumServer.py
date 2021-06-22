@@ -21,15 +21,15 @@ from untils.log import LOG, logger
 from untils.py_kill_process import AppiumProcess
 
 
+class RunServer(threading.Thread):  # 启动服务的线程
 
-class RunServer(threading.Thread): #启动服务的线程
+    def __init__(self, cmd):
+        threading.Thread.__init__(self)
+        self.cmd = cmd
 
-     def __init__(self, cmd):
-         threading.Thread.__init__(self)
-         self.cmd = cmd
+    def run(self):
+        os.system(self.cmd)
 
-     def run(self):
-         os.system(self.cmd)
 
 class AppiumServer(object):
 
@@ -42,14 +42,13 @@ class AppiumServer(object):
         if str(response.getcode()).startswith("2"):
             return True
 
-
-    def start_server(self): #开启服务
+    def start_server(self):  # 开启服务
         for item in self.kwargs:
-            cmd = "appium --session-override  -p %s  -U %s"% (item["port"], item["devices"])
+            cmd = "appium --session-override  -p %s  -U %s" % (item["port"], item["devices"])
             LOG.info(platform.system())
-            if platform.system() == "Windows": #Windows下启动server
+            if platform.system() == "Windows":  # Windows下启动server
                 t1 = RunServer(cmd)
-                p = Process(target = t1.start())
+                p = Process(target=t1.start())
                 p.start()
                 while True:
                     time.sleep(4)
@@ -58,7 +57,7 @@ class AppiumServer(object):
                         break
 
             else:
-                process_cmd = "losf -i:{0}".format(item["port"])
+                process_cmd = "lsof -i:{0}".format(item["port"])
                 ap = AppiumProcess(process_cmd)
                 if ap.is_node_process:
                     ap.kill_process()
