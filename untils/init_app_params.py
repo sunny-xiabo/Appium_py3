@@ -25,6 +25,7 @@ def make_dis(params):
         'appPackage': params['appPackage'],
         'appActivity': params['appActivity'],
         'app': app_path,
+        'noReset': True,
 
         'TestandroidDeviceReadyTimeout': TestandroidDeviceReadyTimeout,
         'TestunicodeKeyboard': TestunicodeKeyboard,

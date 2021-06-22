@@ -87,6 +87,7 @@ def getPhoneInfo(devices):
     brand = subprocess_popen(cmd.format("ro.product.brand"))[0].decode(encoding='utf-8').strip()   # 品牌
     result = {"release": release, "model": model, "device": device, "brand": brand}
     LOG.info(result)
+    return result
 
 
 
@@ -119,6 +120,3 @@ class AndroidDebugBridge(object):
         return devices
 
 
-
-
-print(getPhoneInfo('emulator-5554'))

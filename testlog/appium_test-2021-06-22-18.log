@@ -24,3 +24,231 @@
 [2021-06-22 18:02:01.514861] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
 [2021-06-22 18:03:59.155621] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
 [2021-06-22 18:11:22.880601] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:16:46.663957] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:17:10.452367] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:29:47.053133] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:29:58.375411] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:29:58.680619] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 18:29:58.681078] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-22 18:29:58.702391] INFO: appium_test: 测试开始执行
+[2021-06-22 18:29:58.728490] INFO: appium_test: ['emulator-5554']
+[2021-06-22 18:29:58.731542] INFO: appium_test: Darwin
+[2021-06-22 18:29:58.732046] INFO: appium_test: 当前模块 清理appium进程
+[2021-06-22 18:29:58.732470] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:29:58.859709] INFO: appium_test: lsof -i:4723
+[2021-06-22 18:29:58.861154] INFO: appium_test: 已杀死pid为42277的进程
+[2021-06-22 18:30:00.570559] INFO: appium_test: ------start_server------
+[2021-06-22 18:30:02.575262] INFO: appium_test: ------start_server------
+[2021-06-22 18:30:04.580543] INFO: appium_test: ------start_server------
+[2021-06-22 18:30:06.586045] INFO: appium_test: ------start_server------
+[2021-06-22 18:30:08.588162] INFO: appium_test: ------start_server------
+[2021-06-22 18:30:10.592258] INFO: appium_test: ------start_server------
+[2021-06-22 18:30:12.596818] INFO: appium_test: ------start_server------
+[2021-06-22 18:30:14.602351] INFO: appium_test: ------start_server------
+[2021-06-22 18:30:16.608252] INFO: appium_test: ------start_server------
+[2021-06-22 18:30:18.610623] INFO: appium_test: ------server启动成功------
+[2021-06-22 18:30:18.611126] INFO: appium_test: 当前模块 生成设备配置链接的进程池
+[2021-06-22 18:30:18.611298] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:30:18.691396] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:30:19.107508] INFO: appium_test: 当前模块 组织测试用例
+[2021-06-22 18:30:19.108934] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:30:19.109760] INFO: appium_test: {'udid': 'emulator-5554', 'port': '4723', 'deviceName': 'emulator-5554', 'platformVersion': '6.0.1', 'platformName': 'android', 'appPackage': 'com.pep.riyuxunlianying', 'appActivity': 'com.pep.riyuxunlianying.activity.StartActivity'}
+[2021-06-22 18:30:19.111839] INFO: appium_test: setup.......
+[2021-06-22 18:30:19.112421] INFO: appium_test: 当前模块 开始从配置文件中获取测试相关的配置
+[2021-06-22 18:30:19.112932] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:30:19.113521] INFO: appium_test: http://127.0.0.1:4723/wd/hub
+[2021-06-22 18:30:21.243458] INFO: appium_test: [None]
+[2021-06-22 18:30:21.814945] INFO: appium_test: [{'devices': 'emulator-5554', 'port': '4723'}]
+[2021-06-22 18:30:21.815780] INFO: appium_test: 当前模块 清理appium进程
+[2021-06-22 18:30:21.816091] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:30:21.876619] INFO: appium_test: lsof -i:4723
+[2021-06-22 18:30:21.877294] INFO: appium_test: 已杀死pid为42752的进程
+[2021-06-22 18:30:21.878659] INFO: appium_test: 当前模块 生成测试报告
+[2021-06-22 18:30:21.878935] INFO: appium_test: 全部kwargs参数信息， {'filename': '/testreports/result.xls', 'devices_list': ['emulator-5554'], 'Test_version': 'x.x.x', 'testtime': '0:00:23.174793'}
+[2021-06-22 18:30:21.881959] INFO: appium_test: 当前模块 解析测试结果
+[2021-06-22 18:30:21.882254] INFO: appium_test: 全部kwargs参数信息， {'devices': 'emulator-5554'}
+[2021-06-22 18:33:18.389784] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:33:18.640417] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 18:33:18.640672] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-22 18:33:18.654188] INFO: appium_test: 测试开始执行
+[2021-06-22 18:33:18.664879] INFO: appium_test: ['emulator-5554']
+[2021-06-22 18:33:18.666247] INFO: appium_test: Darwin
+[2021-06-22 18:33:18.666557] INFO: appium_test: 当前模块 清理appium进程
+[2021-06-22 18:33:18.666897] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:33:18.728652] INFO: appium_test: lsof -i:4723
+[2021-06-22 18:33:20.136961] INFO: appium_test: ------start_server------
+[2021-06-22 18:33:22.145731] INFO: appium_test: ------start_server------
+[2021-06-22 18:33:24.150152] INFO: appium_test: ------start_server------
+[2021-06-22 18:33:26.155102] INFO: appium_test: ------start_server------
+[2021-06-22 18:33:28.157759] INFO: appium_test: ------start_server------
+[2021-06-22 18:33:30.159002] INFO: appium_test: ------start_server------
+[2021-06-22 18:33:32.164479] INFO: appium_test: ------start_server------
+[2021-06-22 18:33:34.166635] INFO: appium_test: ------start_server------
+[2021-06-22 18:33:36.170344] INFO: appium_test: ------start_server------
+[2021-06-22 18:33:38.170982] INFO: appium_test: ------server启动成功------
+[2021-06-22 18:33:38.171679] INFO: appium_test: 当前模块 生成设备配置链接的进程池
+[2021-06-22 18:33:38.172093] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:33:38.313868] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:33:38.466236] INFO: appium_test: 当前模块 组织测试用例
+[2021-06-22 18:33:38.469934] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:33:38.470889] INFO: appium_test: {'udid': 'emulator-5554', 'port': '4723', 'deviceName': 'emulator-5554', 'platformVersion': '6.0.1', 'platformName': 'android', 'appPackage': 'com.pep.riyuxunlianying', 'appActivity': 'com.pep.riyuxunlianying.activity.StartActivity'}
+[2021-06-22 18:33:38.476549] INFO: appium_test: setup.......
+[2021-06-22 18:33:38.477566] INFO: appium_test: 当前模块 开始从配置文件中获取测试相关的配置
+[2021-06-22 18:33:38.478546] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:33:38.479573] INFO: appium_test: http://127.0.0.1:4723/wd/hub
+[2021-06-22 18:33:40.041153] INFO: appium_test: [None]
+[2021-06-22 18:33:40.595556] INFO: appium_test: [{'devices': 'emulator-5554', 'port': '4723'}]
+[2021-06-22 18:33:40.596269] INFO: appium_test: 当前模块 清理appium进程
+[2021-06-22 18:33:40.596813] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:33:40.664870] INFO: appium_test: lsof -i:4723
+[2021-06-22 18:33:40.665820] INFO: appium_test: 已杀死pid为42835的进程
+[2021-06-22 18:33:40.667470] INFO: appium_test: 当前模块 生成测试报告
+[2021-06-22 18:33:40.667978] INFO: appium_test: 全部kwargs参数信息， {'filename': '/testreports/result.xls', 'devices_list': ['emulator-5554'], 'Test_version': 'x.x.x', 'testtime': '0:00:22.011872'}
+[2021-06-22 18:33:40.671511] INFO: appium_test: 当前模块 解析测试结果
+[2021-06-22 18:33:40.671929] INFO: appium_test: 全部kwargs参数信息， {'devices': 'emulator-5554'}
+[2021-06-22 18:33:40.672459] INFO: appium_test: 解析设备测试结果完毕
+[2021-06-22 18:33:40.734108] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:38:47.974666] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:38:54.749430] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:39:07.725842] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:39:07.979096] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 18:39:07.979324] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-22 18:39:07.993569] INFO: appium_test: 测试开始执行
+[2021-06-22 18:39:08.004404] INFO: appium_test: ['emulator-5554']
+[2021-06-22 18:39:08.005558] INFO: appium_test: Darwin
+[2021-06-22 18:39:08.006204] INFO: appium_test: 当前模块 清理appium进程
+[2021-06-22 18:39:08.006455] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:39:08.064611] INFO: appium_test: lsof -i:4723
+[2021-06-22 18:39:09.947831] INFO: appium_test: ------start_server------
+[2021-06-22 18:39:11.953712] INFO: appium_test: ------start_server------
+[2021-06-22 18:39:13.958194] INFO: appium_test: ------start_server------
+[2021-06-22 18:39:15.961229] INFO: appium_test: ------start_server------
+[2021-06-22 18:39:17.966496] INFO: appium_test: ------start_server------
+[2021-06-22 18:39:19.967993] INFO: appium_test: ------start_server------
+[2021-06-22 18:39:21.975424] INFO: appium_test: ------start_server------
+[2021-06-22 18:39:23.980187] INFO: appium_test: ------start_server------
+[2021-06-22 18:39:25.985463] INFO: appium_test: ------start_server------
+[2021-06-22 18:39:31.253591] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 18:39:31.253922] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-22 18:39:31.266805] INFO: appium_test: 测试开始执行
+[2021-06-22 18:39:31.280266] INFO: appium_test: ['emulator-5554']
+[2021-06-22 18:39:31.281053] INFO: appium_test: Darwin
+[2021-06-22 18:39:31.281297] INFO: appium_test: 当前模块 清理appium进程
+[2021-06-22 18:39:31.281531] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:39:31.320399] INFO: appium_test: lsof -i:4723
+[2021-06-22 18:39:32.494278] INFO: appium_test: ------start_server------
+[2021-06-22 18:39:34.501198] INFO: appium_test: ------start_server------
+[2021-06-22 18:39:36.506104] INFO: appium_test: ------start_server------
+[2021-06-22 18:39:38.512691] INFO: appium_test: ------start_server------
+[2021-06-22 18:39:40.519660] INFO: appium_test: ------start_server------
+[2021-06-22 18:39:42.525119] INFO: appium_test: ------start_server------
+[2021-06-22 18:39:44.530194] INFO: appium_test: ------start_server------
+[2021-06-22 18:39:46.535784] INFO: appium_test: ------start_server------
+[2021-06-22 18:39:48.542390] INFO: appium_test: ------start_server------
+[2021-06-22 18:39:50.544229] INFO: appium_test: ------server启动成功------
+[2021-06-22 18:39:50.545076] INFO: appium_test: 当前模块 生成设备配置链接的进程池
+[2021-06-22 18:39:50.545960] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:39:50.651119] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:39:50.799631] INFO: appium_test: 当前模块 组织测试用例
+[2021-06-22 18:39:50.802464] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:39:50.803180] INFO: appium_test: {'udid': 'emulator-5554', 'port': '4723', 'deviceName': 'emulator-5554', 'platformVersion': '6.0.1', 'platformName': 'android', 'appPackage': 'com.pep.riyuxunlianying', 'appActivity': 'com.pep.riyuxunlianying.activity.StartActivity'}
+[2021-06-22 18:39:50.807507] INFO: appium_test: setup.......
+[2021-06-22 18:39:50.808508] INFO: appium_test: 当前模块 开始从配置文件中获取测试相关的配置
+[2021-06-22 18:39:50.810201] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:39:50.811675] INFO: appium_test: http://127.0.0.1:4723/wd/hub
+[2021-06-22 18:39:52.332977] INFO: appium_test: [None]
+[2021-06-22 18:39:52.917381] INFO: appium_test: [{'devices': 'emulator-5554', 'port': '4723'}]
+[2021-06-22 18:39:52.918143] INFO: appium_test: 当前模块 清理appium进程
+[2021-06-22 18:39:52.918370] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:39:53.001117] INFO: appium_test: lsof -i:4723
+[2021-06-22 18:39:53.001943] INFO: appium_test: 已杀死pid为42979的进程
+[2021-06-22 18:39:53.003938] INFO: appium_test: 当前模块 生成测试报告
+[2021-06-22 18:39:53.004309] INFO: appium_test: 全部kwargs参数信息， {'filename': '/testreports/result.xls', 'devices_list': ['emulator-5554'], 'Test_version': 'x.x.x', 'testtime': '0:00:21.735180'}
+[2021-06-22 18:39:53.007310] INFO: appium_test: 当前模块 解析测试结果
+[2021-06-22 18:39:53.007550] INFO: appium_test: 全部kwargs参数信息， {'devices': 'emulator-5554'}
+[2021-06-22 18:39:53.007939] INFO: appium_test: 解析设备测试结果完毕
+[2021-06-22 18:39:53.066895] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:39:53.077082] ERROR: appium_test: 测试报告生成失败！原因：[Errno 2] No such file or directory: '/testreports/result.xls'
+[2021-06-22 18:39:53.077383] INFO: appium_test: 测试执行完毕，耗时：0:00:21.735180
+[2021-06-22 18:42:26.302388] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 18:42:26.303314] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-22 18:42:26.315675] INFO: appium_test: 测试开始执行
+[2021-06-22 18:42:26.331230] INFO: appium_test: ['emulator-5554']
+[2021-06-22 18:42:26.332100] INFO: appium_test: Darwin
+[2021-06-22 18:42:26.332395] INFO: appium_test: 当前模块 清理appium进程
+[2021-06-22 18:42:26.332563] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:42:26.381738] INFO: appium_test: lsof -i:4723
+[2021-06-22 18:42:27.773221] INFO: appium_test: ------start_server------
+[2021-06-22 18:42:29.779103] INFO: appium_test: ------start_server------
+[2021-06-22 18:42:31.781457] INFO: appium_test: ------start_server------
+[2021-06-22 18:42:33.785522] INFO: appium_test: ------start_server------
+[2021-06-22 18:42:35.787635] INFO: appium_test: ------start_server------
+[2021-06-22 18:42:37.791728] INFO: appium_test: ------start_server------
+[2021-06-22 18:42:39.796735] INFO: appium_test: ------start_server------
+[2021-06-22 18:42:41.803195] INFO: appium_test: ------start_server------
+[2021-06-22 18:42:43.803872] INFO: appium_test: ------start_server------
+[2021-06-22 18:42:45.807780] INFO: appium_test: ------server启动成功------
+[2021-06-22 18:42:45.808793] INFO: appium_test: 当前模块 生成设备配置链接的进程池
+[2021-06-22 18:42:45.808972] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:42:45.956969] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:42:46.090153] INFO: appium_test: 当前模块 组织测试用例
+[2021-06-22 18:42:46.093128] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:42:46.094432] INFO: appium_test: {'udid': 'emulator-5554', 'port': '4723', 'deviceName': 'emulator-5554', 'platformVersion': '6.0.1', 'platformName': 'android', 'appPackage': 'com.pep.riyuxunlianying', 'appActivity': 'com.pep.riyuxunlianying.activity.StartActivity'}
+[2021-06-22 18:42:46.098310] INFO: appium_test: setup.......
+[2021-06-22 18:42:46.099067] INFO: appium_test: 当前模块 开始从配置文件中获取测试相关的配置
+[2021-06-22 18:42:46.099673] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:42:46.100315] INFO: appium_test: http://127.0.0.1:4723/wd/hub
+[2021-06-22 18:42:47.783182] INFO: appium_test: [None]
+[2021-06-22 18:42:47.927359] INFO: appium_test: [{'devices': 'emulator-5554', 'port': '4723'}]
+[2021-06-22 18:42:47.928094] INFO: appium_test: 当前模块 清理appium进程
+[2021-06-22 18:42:47.928351] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:42:47.987356] INFO: appium_test: lsof -i:4723
+[2021-06-22 18:42:47.988473] INFO: appium_test: 已杀死pid为43062的进程
+[2021-06-22 18:42:47.990172] INFO: appium_test: 当前模块 生成测试报告
+[2021-06-22 18:42:47.990452] INFO: appium_test: 全部kwargs参数信息， {'filename': '/testreports/result.xls', 'devices_list': ['emulator-5554'], 'Test_version': 'x.x.x', 'testtime': '0:00:21.673033'}
+[2021-06-22 18:42:47.993828] INFO: appium_test: 当前模块 解析测试结果
+[2021-06-22 18:42:47.994060] INFO: appium_test: 全部kwargs参数信息， {'devices': 'emulator-5554'}
+[2021-06-22 18:42:47.994425] INFO: appium_test: 解析设备测试结果完毕
+[2021-06-22 18:42:48.092414] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:42:48.104571] ERROR: appium_test: 测试报告生成失败！原因：[Errno 2] No such file or directory: '/testreports/result.xls'
+[2021-06-22 18:42:48.105018] INFO: appium_test: 测试执行完毕，耗时：0:00:21.673033
+[2021-06-22 18:43:43.883633] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-22 18:43:43.885478] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-22 18:43:43.899813] INFO: appium_test: 测试开始执行
+[2021-06-22 18:43:43.918023] INFO: appium_test: ['emulator-5554']
+[2021-06-22 18:43:43.919126] INFO: appium_test: Darwin
+[2021-06-22 18:43:43.919338] INFO: appium_test: 当前模块 清理appium进程
+[2021-06-22 18:43:43.919548] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:43:43.964213] INFO: appium_test: lsof -i:4723
+[2021-06-22 18:43:45.197829] INFO: appium_test: ------start_server------
+[2021-06-22 18:43:47.203021] INFO: appium_test: ------start_server------
+[2021-06-22 18:43:49.207899] INFO: appium_test: ------start_server------
+[2021-06-22 18:43:51.212563] INFO: appium_test: ------start_server------
+[2021-06-22 18:43:53.215461] INFO: appium_test: ------start_server------
+[2021-06-22 18:43:55.220585] INFO: appium_test: ------start_server------
+[2021-06-22 18:43:57.226016] INFO: appium_test: ------start_server------
+[2021-06-22 18:43:59.231286] INFO: appium_test: ------start_server------
+[2021-06-22 18:44:01.236681] INFO: appium_test: ------start_server------
+[2021-06-22 18:44:03.242370] INFO: appium_test: ------server启动成功------
+[2021-06-22 18:44:03.244181] INFO: appium_test: 当前模块 生成设备配置链接的进程池
+[2021-06-22 18:44:03.244862] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:44:03.422920] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-22 18:44:03.594381] INFO: appium_test: 当前模块 组织测试用例
+[2021-06-22 18:44:03.596464] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:44:03.597534] INFO: appium_test: {'udid': 'emulator-5554', 'port': '4723', 'deviceName': 'emulator-5554', 'platformVersion': '6.0.1', 'platformName': 'android', 'appPackage': 'com.pep.riyuxunlianying', 'appActivity': 'com.pep.riyuxunlianying.activity.StartActivity'}
+[2021-06-22 18:44:03.602114] INFO: appium_test: setup.......
+[2021-06-22 18:44:03.603537] INFO: appium_test: 当前模块 开始从配置文件中获取测试相关的配置
+[2021-06-22 18:44:03.605053] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:44:03.606105] INFO: appium_test: http://127.0.0.1:4723/wd/hub
+[2021-06-22 18:44:05.522392] INFO: appium_test: [None]
+[2021-06-22 18:44:06.009601] INFO: appium_test: [{'devices': 'emulator-5554', 'port': '4723'}]
+[2021-06-22 18:44:06.010265] INFO: appium_test: 当前模块 清理appium进程
+[2021-06-22 18:44:06.010462] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-22 18:44:06.079287] INFO: appium_test: lsof -i:4723
+[2021-06-22 18:44:06.080182] INFO: appium_test: 已杀死pid为43117的进程
+[2021-06-22 18:44:06.081728] INFO: appium_test: 当前模块 生成测试报告
+[2021-06-22 18:44:06.082309] INFO: appium_test: 全部kwargs参数信息， {'filename': '/testreports/result.xls', 'devices_list': ['emulator-5554'], 'Test_version': 'x.x.x', 'testtime': '0:00:22.180441'}
+[2021-06-22 18:44:06.085748] INFO: appium_test: 当前模块 解析测试结果
+[2021-06-22 18:44:06.086069] INFO: appium_test: 全部kwargs参数信息， {'devices': 'emulator-5554'}
+[2021-06-22 18:44:06.086533] INFO: appium_test: 解析设备测试结果完毕
+[2021-06-22 18:44:06.152296] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}

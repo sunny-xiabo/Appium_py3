@@ -15,7 +15,7 @@ import os
 
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  #项目首路径
 
-AppPackage = '' #被测应用名称
+AppPackage = 'com.pep.riyuxunlianying' #被测应用名称
 TestandroidDeviceReadyTimeout = 30  #超时时间
 TestunicodeKeyboard = True
 TestresetKeyboard = True

@@ -81,20 +81,20 @@ if __name__ == '__main__':
             }
             l_devices.append(app)
         # appium开始
-        appium_server = AppiumServer(l_devices)
-        appium_server.start_server()  # 启动服务
+        # appium_server = AppiumServer(l_devices)
+        # appium_server.start_server()  # 启动服务
         runner_pool(l_devices)
 
-        try:
-            appium_server.stop_server(l_devices)
-        except Exception as e:
-            LOG.info("关闭服务失败！失败原因：{}".format(e))
+        # try:
+        #     appium_server.stop_server(l_devices)
+        # except Exception as e:
+        #     LOG.info("关闭服务失败！失败原因：{}".format(e))
 
         end_time = datetime.datetime.now()
         hour = end_time - start_time
 
         # 生成测试报告
-        filenm = os.path.join(base_dir, '/testreports/result.xls')
+        filenm = os.path.join(base_dir, 'testreports/result.xls')
         create(filename=filenm, devices_list=devices, Test_version='x.x.x', testtime=str(hour))
         LOG.info("测试执行完毕，耗时：{}".format(hour))
 
