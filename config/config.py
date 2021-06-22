@@ -23,4 +23,4 @@ TestresetKeyboard = True
 Test_Project_name = ''
 TiTestuser = ''
 Test_user = "自动化"
-app_path = os.path.join(base_dir, "")
+app_path = os.path.join(base_dir, "data/packages/ryxly.apk")
