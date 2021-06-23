@@ -8,10 +8,10 @@
   index: 8
   operate_type: click
 -
-  element_info: com.pep.riyuxunlianying:id/has_biaori #有标日切换
-  find_type: id
-  index: 0
-  operate_type: click
+#  element_info: com.pep.riyuxunlianying:id/has_biaori #有标日切换
+#  find_type: id
+#  index: 0
+#  operate_type: click
 -
   element_info: com.pep.riyuxunlianying:id/forget #忘记密码
   find_type: id
@@ -33,10 +33,10 @@
   index: 1
   operate_type: click
 -
-  element_info: com.pep.riyuxunlianying:id/code_rl #国家地区选择
-  find_type: id
-  index: 2
-  operate_type: click
+#  element_info: com.pep.riyuxunlianying:id/code_rl #国家地区选择
+#  find_type: id
+#  index: 2
+#  operate_type: click
 -
   element_info: com.pep.riyuxunlianying:id/input_call #输入手机号（即账号）
   find_type: id

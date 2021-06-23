@@ -93,7 +93,7 @@ def create(filename, testtime, Test_version, devices_list):
         table.write(6, 1, testtime, style=style1)
         table.write(7, 1, TiTestuser, style=style1)
         table.write(4, 3, Test_user, style=style1)
-        table.write(5, 3, datetime.now().strftime("%Y-%m-%d %HH:%MM"), style=style1)
+        table.write(5, 3, datetime.now().strftime("%Y-%m-%d %H:%M"), style=style1)
         table.write(6, 3, "admin", style=style1)
         all_result = []
         for devices in devices_list:

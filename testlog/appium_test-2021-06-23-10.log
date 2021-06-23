@@ -1,0 +1,113 @@
+[2021-06-23 10:17:12.887151] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-23 10:17:12.889082] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-23 10:17:12.935182] INFO: appium_test: 测试开始执行
+[2021-06-23 10:17:13.109933] INFO: appium_test: []
+[2021-06-23 10:17:13.111896] INFO: appium_test: 没有可用的安卓设备
+[2021-06-23 10:17:39.639234] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-23 10:17:39.640776] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-23 10:17:39.653397] INFO: appium_test: 测试开始执行
+[2021-06-23 10:17:39.668732] INFO: appium_test: ['emulator-5554']
+[2021-06-23 10:17:39.669403] INFO: appium_test: 当前模块 生成设备配置链接的进程池
+[2021-06-23 10:17:39.669601] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-23 10:17:39.756600] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-23 10:17:39.919413] INFO: appium_test: 当前模块 组织测试用例
+[2021-06-23 10:17:39.920630] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-23 10:17:39.921274] INFO: appium_test: {'udid': 'emulator-5554', 'port': '4723', 'deviceName': 'emulator-5554', 'platformVersion': '6.0.1', 'platformName': 'android', 'appPackage': 'com.pep.riyuxunlianying', 'appActivity': 'com.pep.riyuxunlianying.activity.StartActivity'}
+[2021-06-23 10:17:39.923647] INFO: appium_test: setup.......
+[2021-06-23 10:17:39.924761] INFO: appium_test: 当前模块 开始从配置文件中获取测试相关的配置
+[2021-06-23 10:17:39.926853] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-23 10:17:39.928714] INFO: appium_test: http://127.0.0.1:4723/wd/hub
+[2021-06-23 10:17:53.118362] INFO: appium_test: <appium.webdriver.webdriver.WebDriver (session="566966ae-beba-4d77-b221-85c18d918387")>
+[2021-06-23 10:17:53.120947] INFO: appium_test: login测试用例开始执行
+[2021-06-23 10:17:53.137199] INFO: appium_test: 打印屏幕大小 window={'height': 1664, 'width': 1040}
+[2021-06-23 10:17:53.993568] INFO: appium_test: 测试用例执行完毕，测试环境正在还原！
+[2021-06-23 10:17:59.837572] INFO: appium_test: [None]
+[2021-06-23 10:18:00.250570] INFO: appium_test: 当前模块 生成测试报告
+[2021-06-23 10:18:00.250938] INFO: appium_test: 全部kwargs参数信息， {'filename': '/Users/xiabo/work/Appium_py3/testreports/result.xls', 'devices_list': ['emulator-5554'], 'Test_version': 'x.x.x', 'testtime': '0:00:20.595143'}
+[2021-06-23 10:18:00.255672] INFO: appium_test: 当前模块 解析测试结果
+[2021-06-23 10:18:00.256013] INFO: appium_test: 全部kwargs参数信息， {'devices': 'emulator-5554'}
+[2021-06-23 10:18:00.256780] INFO: appium_test: 解析设备测试结果完毕
+[2021-06-23 10:18:00.340977] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-23 10:18:00.355529] INFO: appium_test: 测试报告保存成功
+[2021-06-23 10:18:00.356068] INFO: appium_test: 测试执行完毕，耗时：0:00:20.595143
+[2021-06-23 10:34:21.229045] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-23 10:34:21.230053] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-23 10:34:21.253395] INFO: appium_test: 测试开始执行
+[2021-06-23 10:34:21.285274] INFO: appium_test: ['emulator-5554']
+[2021-06-23 10:34:21.286384] INFO: appium_test: 当前模块 生成设备配置链接的进程池
+[2021-06-23 10:34:21.286722] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-23 10:34:21.505151] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-23 10:34:21.649896] INFO: appium_test: 当前模块 组织测试用例
+[2021-06-23 10:34:21.652647] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-23 10:34:21.653696] INFO: appium_test: {'udid': 'emulator-5554', 'port': '4723', 'deviceName': 'emulator-5554', 'platformVersion': '6.0.1', 'platformName': 'android', 'appPackage': 'com.pep.riyuxunlianying', 'appActivity': 'com.pep.riyuxunlianying.activity.StartActivity'}
+[2021-06-23 10:34:21.656993] INFO: appium_test: setup.......
+[2021-06-23 10:34:21.658902] INFO: appium_test: 当前模块 开始从配置文件中获取测试相关的配置
+[2021-06-23 10:34:21.659881] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-23 10:34:21.660857] INFO: appium_test: http://127.0.0.1:4723/wd/hub
+[2021-06-23 10:34:33.486219] INFO: appium_test: <appium.webdriver.webdriver.WebDriver (session="6b72b7d2-fc09-4a6a-866e-ae45e1b059fe")>
+[2021-06-23 10:34:33.488046] INFO: appium_test: login测试用例开始执行
+[2021-06-23 10:34:33.503363] INFO: appium_test: 打印屏幕大小 window={'height': 1664, 'width': 1040}
+[2021-06-23 10:34:34.390178] INFO: appium_test: 测试用例执行完毕，测试环境正在还原！
+[2021-06-23 10:34:40.361120] INFO: appium_test: [None]
+[2021-06-23 10:34:40.770332] INFO: appium_test: 当前模块 生成测试报告
+[2021-06-23 10:34:40.770686] INFO: appium_test: 全部kwargs参数信息， {'filename': '/Users/xiabo/work/Appium_py3/testreports/2021-06-23result.xls', 'devices_list': ['emulator-5554'], 'Test_version': 'x.x.x', 'testtime': '0:00:19.515218'}
+[2021-06-23 10:34:40.774487] INFO: appium_test: 当前模块 解析测试结果
+[2021-06-23 10:34:40.774896] INFO: appium_test: 全部kwargs参数信息， {'devices': 'emulator-5554'}
+[2021-06-23 10:34:40.775471] INFO: appium_test: 解析设备测试结果完毕
+[2021-06-23 10:34:40.881699] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-23 10:34:40.892832] INFO: appium_test: 测试报告保存成功
+[2021-06-23 10:34:40.893163] INFO: appium_test: 测试执行完毕，耗时：0:00:19.515218
+[2021-06-23 10:37:20.914247] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-23 10:37:20.915642] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-23 10:37:20.929858] INFO: appium_test: 测试开始执行
+[2021-06-23 10:37:20.946457] INFO: appium_test: ['emulator-5554']
+[2021-06-23 10:37:20.947165] INFO: appium_test: 当前模块 生成设备配置链接的进程池
+[2021-06-23 10:37:20.947347] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-23 10:37:21.020461] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-23 10:37:21.155702] INFO: appium_test: 当前模块 组织测试用例
+[2021-06-23 10:37:21.156835] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-23 10:37:21.157586] INFO: appium_test: {'udid': 'emulator-5554', 'port': '4723', 'deviceName': 'emulator-5554', 'platformVersion': '6.0.1', 'platformName': 'android', 'appPackage': 'com.pep.riyuxunlianying', 'appActivity': 'com.pep.riyuxunlianying.activity.StartActivity'}
+[2021-06-23 10:37:21.160071] INFO: appium_test: setup.......
+[2021-06-23 10:37:21.160809] INFO: appium_test: 当前模块 开始从配置文件中获取测试相关的配置
+[2021-06-23 10:37:21.161493] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-23 10:37:21.162819] INFO: appium_test: http://127.0.0.1:4723/wd/hub
+[2021-06-23 10:37:32.846945] INFO: appium_test: <appium.webdriver.webdriver.WebDriver (session="f928c403-d7f8-4d00-b31b-d9e830cc84d0")>
+[2021-06-23 10:37:32.849517] INFO: appium_test: login测试用例开始执行
+[2021-06-23 10:37:32.870525] INFO: appium_test: 打印屏幕大小 window={'height': 1664, 'width': 1040}
+[2021-06-23 10:37:33.782486] INFO: appium_test: 测试用例执行完毕，测试环境正在还原！
+[2021-06-23 10:37:39.623179] INFO: appium_test: [None]
+[2021-06-23 10:37:40.264655] INFO: appium_test: 当前模块 生成测试报告
+[2021-06-23 10:37:40.264937] INFO: appium_test: 全部kwargs参数信息， {'filename': '/Users/xiabo/work/Appium_py3/testreports/2021-06-23result.xls', 'devices_list': ['emulator-5554'], 'Test_version': 'x.x.x', 'testtime': '0:00:19.333563'}
+[2021-06-23 10:37:40.268745] INFO: appium_test: 当前模块 解析测试结果
+[2021-06-23 10:37:40.268977] INFO: appium_test: 全部kwargs参数信息， {'devices': 'emulator-5554'}
+[2021-06-23 10:37:40.269748] INFO: appium_test: 解析设备测试结果完毕
+[2021-06-23 10:37:40.409772] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-23 10:37:40.419675] INFO: appium_test: 测试报告保存成功
+[2021-06-23 10:37:40.420051] INFO: appium_test: 测试执行完毕，耗时：0:00:19.333563
+[2021-06-23 10:38:24.710309] INFO: appium_test: 当前模块 获取测试用例所需要的参数
+[2021-06-23 10:38:24.711783] INFO: appium_test: 全部kwargs参数信息， {'index': 1}
+[2021-06-23 10:38:24.729760] INFO: appium_test: 测试开始执行
+[2021-06-23 10:38:24.750508] INFO: appium_test: ['emulator-5554']
+[2021-06-23 10:38:24.751381] INFO: appium_test: 当前模块 生成设备配置链接的进程池
+[2021-06-23 10:38:24.751874] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-23 10:38:24.853166] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-23 10:38:24.989536] INFO: appium_test: 当前模块 组织测试用例
+[2021-06-23 10:38:24.991800] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-23 10:38:24.992984] INFO: appium_test: {'udid': 'emulator-5554', 'port': '4723', 'deviceName': 'emulator-5554', 'platformVersion': '6.0.1', 'platformName': 'android', 'appPackage': 'com.pep.riyuxunlianying', 'appActivity': 'com.pep.riyuxunlianying.activity.StartActivity'}
+[2021-06-23 10:38:24.996534] INFO: appium_test: setup.......
+[2021-06-23 10:38:24.997937] INFO: appium_test: 当前模块 开始从配置文件中获取测试相关的配置
+[2021-06-23 10:38:24.998834] INFO: appium_test: 全部kwargs参数信息， {}
+[2021-06-23 10:38:25.000373] INFO: appium_test: http://127.0.0.1:4723/wd/hub
+[2021-06-23 10:38:34.693510] INFO: appium_test: <appium.webdriver.webdriver.WebDriver (session="52eba813-db77-4065-bb21-8f44e7849873")>
+[2021-06-23 10:38:34.695716] INFO: appium_test: login测试用例开始执行
+[2021-06-23 10:38:34.711776] INFO: appium_test: 打印屏幕大小 window={'height': 1664, 'width': 1040}
+[2021-06-23 10:38:35.562728] INFO: appium_test: 测试用例执行完毕，测试环境正在还原！
+[2021-06-23 10:38:41.375430] INFO: appium_test: [None]
+[2021-06-23 10:38:41.682142] INFO: appium_test: 当前模块 生成测试报告
+[2021-06-23 10:38:41.682435] INFO: appium_test: 全部kwargs参数信息， {'filename': '/Users/xiabo/work/Appium_py3/testreports/2021-06-23result.xls', 'devices_list': ['emulator-5554'], 'Test_version': 'x.x.x', 'testtime': '0:00:16.950790'}
+[2021-06-23 10:38:41.687021] INFO: appium_test: 当前模块 解析测试结果
+[2021-06-23 10:38:41.687435] INFO: appium_test: 全部kwargs参数信息， {'devices': 'emulator-5554'}
+[2021-06-23 10:38:41.688066] INFO: appium_test: 解析设备测试结果完毕
+[2021-06-23 10:38:41.850654] INFO: appium_test: {'release': '6.0.1', 'model': 'P10', 'device': 'x86_64', 'brand': 'HUAWEI'}
+[2021-06-23 10:38:41.860596] INFO: appium_test: 测试报告保存成功
+[2021-06-23 10:38:41.861042] INFO: appium_test: 测试执行完毕，耗时：0:00:16.950790

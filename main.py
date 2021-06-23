@@ -23,6 +23,7 @@ from testcase.login_case_test import Logintest
 import os
 import unittest
 import datetime
+import time
 
 l_devices = []
 
@@ -70,6 +71,7 @@ def runner_case_app(devices):
 if __name__ == '__main__':
     LOG.info("测试开始执行")
     start_time = datetime.datetime.now()
+    date = time.strftime('%Y-%m-%d', time.localtime(time.time()))
     devices = AndroidDebugBridge().attahced_devices()
     LOG.info(devices)
 
@@ -94,7 +96,7 @@ if __name__ == '__main__':
         hour = end_time - start_time
 
         # 生成测试报告
-        filenm = os.path.join(base_dir, 'testreports/result.xls')
+        filenm = os.path.join(base_dir, 'testreports/{}result.xls'.format(date))
         create(filename=filenm, devices_list=devices, Test_version='x.x.x', testtime=str(hour))
         LOG.info("测试执行完毕，耗时：{}".format(hour))
 

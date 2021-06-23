@@ -10,16 +10,17 @@
 登录测试
 '''
 
-from untils.log import LOG,logger
+from untils.log import LOG, logger
 from exctfuntion.test_fun import MakeAppCace
 import os
 from config.config import base_dir
 
-path_case=os.path.join(base_dir, 'data/location/login.yaml')
+path_case = os.path.join(base_dir, 'data/location/login.yaml')
+
 
 @logger('登录测试')
 class LoginFun():
-    def __init__(self,driver):
+    def __init__(self, driver):
         self.driver = driver
         self.path = path_case
         self.open = MakeAppCace(self.driver, path=self.path)
